@@ -1,0 +1,115 @@
+body {
+    text-align: center;
+    background: linear-gradient(#e85d5d 0%, #eb4794 50%, #e859e1 80%, #52dde6 100%);
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-shadow: 2px 2px #F8BBD0;
+    font-size: 50px;
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+}
+
+p {
+    font-size: 20px
+}
+
+#bio {
+    padding: 20px;
+    font-size: 18px;
+}
+
+h2 {
+    text-shadow: 2px 2px #F8BBD0;
+    font-size: 30px;
+}
+
+h3 {
+    text-shadow: 2px 2px #F8BBD0;
+    font-size: 30px;
+}
+
+img {
+    border-radius: 100px;
+    margin-left: 250px;
+    margin-right: 250px;
+    width: 350px;
+    height: 200px;
+    text-align: center;
+}
+.link{
+    display: inline;
+    padding-left: 33px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+.link:hover{
+    font-size:25px;
+    text-decoration: underline;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+.projects:hover {
+    color: pink;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+ text-decoration: none;
+    text-shadow: none;
+  display: inline-block;
+  font-size: 16px;
+}
+#picture{
+    transition: transform 2s;
+}
+#picture:hover{
+    transform: scale(0.9);
+}   
+.menu{
+    position: fixed;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+}
+a{
+    text-decoration: none;
+    color: aquamarine;
+    text-shadow:2px 2px gainsboro;
+}
+#writings a{
+text-shadow: none !important;
+    text-decoration: underline !important;
+    color: crimson !important;
+}
+.contact_1 a{
+   color: crimson;
+    text-shadow: none;
+}
+.contact_1 h3{
+  display: inline;  
+
+}
